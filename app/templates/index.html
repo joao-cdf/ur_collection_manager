@@ -1,5 +1,9 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <button src="{{ url_for('static', filename='ur_connect_button.png') }}"></button>
+<span>
+    <a href='ur_connect'>
+        <img class='ur_connect' src="{{ url_for('static', filename='img/ur_connect_button.png') }}" alt="ur_connect">
+    </a>
+</span>
 {% endblock content %}

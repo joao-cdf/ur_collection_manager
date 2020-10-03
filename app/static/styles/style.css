@@ -1,0 +1,10 @@
+body    {
+    background-color: black;
+}
+
+.ur_connect {
+    background: transparent;
+    border: transparent;
+    width: max-content;
+    height: max-content;
+}
